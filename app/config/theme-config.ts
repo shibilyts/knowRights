@@ -26,6 +26,12 @@ export const PaperThemeDark = {
 export const CombinedDefaultTheme = {
   ...PaperDefaultTheme,
   ...NavigationDefaultTheme,
+  colors: {
+    ...NavigationDarkTheme.colors,
+    background: '#fffddb',
+    card: '#e6d600',
+    text: '#222222',
+  },
 };
 
 export const CombinedDarkTheme = {
@@ -35,6 +41,6 @@ export const CombinedDarkTheme = {
     ...NavigationDarkTheme.colors,
     background: '#303030',
     card: '#222222',
-    text: '#ffffff',
+    text: '#e6d600',
   },
 };
